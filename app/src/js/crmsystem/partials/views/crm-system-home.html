@@ -1,0 +1,28 @@
+<br/>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="well well-sm">
+            <h5>Customer Portfolio Management Dashboard</h5>
+            <h6>This would help to view and manage customer portfolios.</h6>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div>
+            <gs-customer-search-panel search-string="customerNameFilter" />
+        </div>
+    </div>
+</div>
+
+<br/>
+
+<div class="row">
+    <div class="col-md-3" ng-repeat="customer in customers | filter: customerNameFilter">
+        <div>
+            <gs-customer-viewer customer-info="customer" />
+        </div>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+$http - by default returns promise
+
+$resource - by default returns result
+
+Whenever a service definition uses $resource to consume RESTful service, make sure that it ALWAYS returns promise object.
+

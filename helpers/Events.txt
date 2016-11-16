@@ -1,0 +1,20 @@
+Angular supports 2 types of event strategies
+	in controllers communication.
+
+a. Bubbling (Bottom->Up)
+b. Tunneling (Top->Down)
+
+If a controller needs to communicate with it's parent scopes, it's good to have event bubbling.
+
+On the other hand, if a controller needs to communicate with it's child scopes,
+	it's good to have event tunneling.
+
+A scope has following 4 methods used for eventing.
+
+Subscribers:
+a. $on - register the event handler
+b. $off - unregister the event handler
+
+Publishers:
+c. $emit - bubbling
+d. $broadcast - tunneling

@@ -1,0 +1,5 @@
+In Javascript, array can be used for Stack / Queue purposes also.
+
+push and pop - stack
+unshift and shift - queue
+

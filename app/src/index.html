@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Angular - Professional</title>
+
+    <meta name="viewport" content="initial-scale=1" />
+    <meta name="author" content="Angular Training Team" />
+    <meta name="description" content="Learning Angular Professionally!" />
+    <meta name="keywords" content="GS NG JP" />
+
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="../bower_components/angular-ui-router-anim-in-out/css/anim-in-out.css"/>
+    <link rel="stylesheet" href="../bower_components/c3/c3.min.css" />
+
+    <link rel="stylesheet" href="css/jumbotron.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+
+    <div class="container">
+
+        <div>
+            <gs-global-header header-title="Goldman Sachs, JP" />
+        </div>
+
+        <div ui-view
+             data-anim-speed="500"
+             data-anim-sync="true"
+             class="anim-in-out anim-fade anim-slide-left"></div>
+
+        <hr/>
+
+        <div>
+            <gs-global-footer />
+        </div>
+
+    </div>
+
+    <script src="../bower_components/requirejs/require.js"
+            data-main="js/require-main"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+Angular directive has 3 types of properties
+
+	@	-	value property (doesn't support two-way data binding)
+	=	-	binding property (supports two-way data binding
+	&	-	event property

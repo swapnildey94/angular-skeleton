@@ -1,0 +1,18 @@
+In Jasmine,
+
+describe	-	test suite
+
+beforeEach	-	test initialization
+
+afterEach	-	test cleanup
+
+it		-	test case
+
+xdescribe	-	ignore test suite
+
+xit		-	ignore test case
+
+expect		-	set the expectation
+
+to*		-	verification
+

@@ -1,0 +1,8 @@
+view model has 3 functions related to observing property changes for custom functionalities.
+
+Observing Models:
+$watch			- helps to listen to a property change
+$watchGroup		- helps to listen to a set of properties changes
+
+Observing Collection:
+$watchCollection	- helps to listen to array value changes

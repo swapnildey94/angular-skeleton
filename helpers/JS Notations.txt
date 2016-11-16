@@ -1,0 +1,19 @@
+() 	-	parameters
+[]	-	array
+{}	-	object
+
+(function() {
+}()	-	self invoking function
+
+x({
+	id: 10	- calling x function and passing an object
+});
+
+x({
+	id: [ 10, 20, 30],
+	work: function() {
+		return this.id;
+	}
+});		-	calling x function and passing an object
+				containing id (array property) and
+				work function which returns id property.

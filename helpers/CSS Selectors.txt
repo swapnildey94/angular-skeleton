@@ -1,0 +1,8 @@
+In CSS,
+
+	#	-	DOM Element ID
+	.	-	DOM Element Class
+	Tag	-	DOM Element Tag Name
+	>	-	Direct Child
+	+	-	Include Also
+	

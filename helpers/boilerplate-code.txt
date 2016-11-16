@@ -1,0 +1,21 @@
+'use strict';
+
+(function () {
+
+	var fileDependencies =
+		[
+			'angular'
+		];
+
+	define(fileDependencies, function() {
+
+		var Module = angular.module('', 
+			[
+			]);
+
+
+		// Angular Component Registration to Modules ...
+
+	});
+
+}) ();

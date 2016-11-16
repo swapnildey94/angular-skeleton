@@ -1,0 +1,13 @@
+.healthy {
+    background-color: #2b542c;
+    color: white;
+}
+
+.not-healthy {
+    background-color: #ca3a11;
+    color: white;
+}
+
+.text-white {
+    color: white;
+}

@@ -1,0 +1,8 @@
+in angular, HTML form / control has 4 state properties, which can be used to check 
+whether form/control is in valid state.
+
+$valid		validations applied and successfully validated
+$invalid	validations applied and failed.
+$dirty		user has edited the form / control
+$pristine	user has NOT touched the form / control
+

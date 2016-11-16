@@ -1,0 +1,12 @@
+For Javascript:
+
+	Professional Series:
+
+		The Eloquent Javascript
+		Javascript Goodparts - Oreilly - Douglas Crocford
+
+For Angular Testing
+
+	Packt Publishing - Angular JS Testing Cookbook
+		(Unit Testing and UI Testing)
+

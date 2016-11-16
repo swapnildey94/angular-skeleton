@@ -1,0 +1,86 @@
+<br/>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="well well-sm">
+            <h5>Customer - Profile, Stock and Order Transactions Dashboard</h5>
+            <h6>This would help to view customer profile, live stocks and order transaction history.</h6>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <span>Customer Dashboard Switch Panel</span>
+            </div>
+
+            <div class="panel-body">
+                <div>
+                    <gs-dashboard-switch-panel/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <span>Customer Profile Viewer</span>
+            </div>
+
+            <div class="panel-body">
+                <div>
+                    <gs-customer-detail-viewer customer-detail="customer"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <span>Live Stock Viewer</span>
+            </div>
+
+            <div class="panel-body">
+                <div>
+                    <gs-stock-viewer company-name="customer.name"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <span>Order Transaction Viewer</span>
+            </div>
+
+            <div class="panel-body">
+                <div>
+                    <gs-order-viewer orders-list="orders"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <span>Order Transaction Performance Viewer</span>
+            </div>
+
+            <div class="panel-body">
+                <div>
+                    <gs-order-chart-viewer orders-list="orders"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Angular with Bad Practices</title>
+</head>
+<body ng-app="myApp">
+
+<div ng-controller="customersController">
+
+    <input type="text" ng-model="searchString" />
+
+    <table>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="customer in customers | filter: searchString"
+            ng-click="loadOrders(customer.id)">
+            <td> {{ customer.id }}</td>
+            <td> {{ customer.name }}</td>
+            <td> {{ customer.status | gsStatus }}</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <br/>
+
+    <table>
+        <tbody>
+            <tr ng-repeat="order in orders">
+                <td> {{ order.oid }} </td>
+                <td> {{ order.odate | date: 'yyyy-MM-dd' }} </td>
+                <td> {{ order.cid }} </td>
+                <td> {{ order.amount | currency: '¥ ' }} </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="js/app.js"></script>
+n</body>
+</html>

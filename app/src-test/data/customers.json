@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Kelvin",
+    "status": true
+  },
+  {
+    "id": 2,
+    "name": "Mike",
+    "status": false
+  },
+  {
+    "id": 3,
+    "name": "Nikhil",
+    "status": true
+  },
+  {
+    "id": 4,
+    "name": "Ming",
+    "status": true
+  },
+  {
+    "id": 5,
+    "name": "Eric",
+    "status": true
+  },
+  {
+    "id": 6,
+    "name": "Kevin",
+    "status": true
+  },
+  {
+    "id": 7,
+    "name": "Fred",
+    "status": true
+  }
+]
